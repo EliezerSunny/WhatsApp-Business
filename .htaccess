@@ -1,0 +1,34 @@
+# Turn Rewrite Url Engine On
+RewriteEngine on
+
+# Rewrite for profile.php
+# RewriteRule ^profile$ profile.php [NC,L]
+
+# NC makes the rule non case sensitive
+# L makes this the last rule that this specific condition will match
+
+# $ in the regular expression makes the matching stop so that "customblah" will not work
+
+# Rewrite for index.html
+  RewriteRule ^index?$ index.html [NC,L]
+
+  # Rewrite for chats.html
+  RewriteRule ^chats?$ chats.html [NC,L]
+
+  # Rewrite for promote.html
+  RewriteRule ^promote?$ promote.html [NC,L]
+
+  # Rewrite for status.html
+  RewriteRule ^status?$ status.html [NC,L]
+
+  # Rewrite for view_status.html
+  RewriteRule ^view_status?$ view_status.html [NC,L]
+  
+  # Rewrite for calls.html
+  RewriteRule ^calls?$ calls.html [NC,L]
+
+  # Rewrite for settings.html
+  RewriteRule ^settings?$ settings.html [NC,L]
+
+  # Rewrite for profile.html
+  RewriteRule ^profile?$ profile.html [NC,L]

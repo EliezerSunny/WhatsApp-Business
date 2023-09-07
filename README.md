@@ -8,8 +8,10 @@
 
 ## Features
 * Chat page:
-![img](assets/img/404.png?raw=true)
+![img](assets/img/index.png?raw=true)
+* Profile page:
+![img](assets/img/profile.png?raw=true)
 * Status page:
-![img](assets/img/status.jpg?raw=true)
+![img](assets/img/status.png?raw=true)
 * Calls page:
-![img](assets/img/calss.jpg?raw=true)
+![img](assets/img/calls.png?raw=true)

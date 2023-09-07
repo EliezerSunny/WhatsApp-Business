@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>View status || WhatsApp Business</title>
+
+	<link rel="icon" href="assets/img/WhatsApp.png" type="image/x-icon">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="https://kit.fontawesome.com/1aef77d8a7.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/chat.css">
+	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<script src="assets/js/script.js"></script>
+</head>
+<body>
+	<div class="backg">
+	<!-- container -->
+	<div class="container"><!-- 
+		<div class="wallpaper">
+		<img src="assets/img/wallpaper.jpg">
+		</div> -->
+		
+		<!-- head -->
+		<div class="head">
+
+
+			<!-- search -->
+			<div class="search" id="search">
+				<div class="search_input">
+					<div class="search_arrow"><i class="fa fa-arrow-left"></i></div>
+					<input type="search" name="search" placeholder="Search..." required>
+
+					<div class="search_category_button">
+						<div class="search_category">
+							<button><i class="fa fa-image"></i> Photos</button>
+						</div>
+
+						<div class="search_category">
+							<button><i class="fa fa-video-camera"></i> Videos</button>
+						</div>
+
+						<div class="search_category">
+							<button><i class="fa fa-link"></i> Links</button>
+						</div>
+
+						<div class="search_category">
+							<button><i class="material-icons"></i> GIFs</button>
+						</div>
+
+						<div class="search_category">
+							<button><i class="fa fa-music"></i> Audios</button>
+						</div>
+
+						<div class="search_category">
+							<button><i class="fa fa-file-text"></i> Documents</button>
+						</div>
+
+						<div class="search_category">
+							<button><i class="material-icons"></i> Polls</button>
+						</div>
+
+						<div class="search_category">
+							<button><i class="fa fa-user"></i> Contacts</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- search end -->
+
+
+			<!-- desktop -->
+			<div class="desktop">
+			<!-- Head1 -->
+			<div class="head1">
+				<div class="head11">
+					<h4>WhatsApp Business</h4>
+				</div>
+
+				<div class="head11">
+					<ul class="head1_ul">
+						<li class="fa_camera" onclick="camera()"><i class="fa fa-camera"></i>
+							<div class="camera_div" id="camera">
+								<input type="file" name="camera">
+							</div>
+						</li>
+						<li class="fa_search" onclick="search()"><i class="fa fa-seach"></i></li>
+						<li class="fa_ellipsis" onclick="headMenuList()"><i class="fa fa-ellipsis-v"></i>
+
+							<div class="head_menu_list" id="head_menu_list">
+								<ul >
+									<li>Advertise</li>
+									<li>Business tools</li>
+									<li>New group</li>
+									<li>New broadcast</li>
+									<li>Labels</li>
+									<li>Linked devices</li>
+									<li>Starred messages</li>
+									<li>Settings</li>
+								</ul>
+							</div>
+
+						</li>
+
+					</ul>
+				</div>
+			</div>
+			<!-- Head1 end -->
+
+
+			
+			<!-- Head2 -->
+			<div class="head2">
+
+				<ul class="head2_ul">
+					<li><a href="promote"><i class="fa fa-home"></i></a></li>
+					<li><a href="chat">Chats <span class="chat_count">9</span></a></li>
+					<li class="active"><a href="status">Status <span class="status_dot">.</span></a></li>
+					<li><a href="calls">Calls</a></li>
+				</ul>
+			</div>
+			<!-- Head2 end -->
+			</div>
+			<!-- desktop -->
+
+
+			<!-- mobile -->
+			<div class="mobile">
+			<!-- Head1 -->
+			<div class="chat_head1">
+				<div class="head11">
+
+					<div class="img_name">
+
+					<div>
+						<img src="assets/img/dev_sunny.jpg" title="Dev. Sunny" alt="Dev. Sunny">
+					</div>
+
+					<div>
+					<div class="text">
+					 <h4>Dev. Sunny</h4>
+					 <span>Status</span>
+					</div>
+					</div>
+
+				</div>
+
+				</div>
+
+				<div class="head11">
+					<ul class="head1_ul">
+						<li class="fa_search" onclick="search()"><i class="fa fa-video-camera"></i>
+						</li>
+						<li class="fa_search" onclick="search()"><i class="fa fa-call"></i>
+						</li>
+						<li class="fa_search" onclick="search()"><i class="fa fa-ellipsis-v"></i>
+						</li>
+					</ul>
+				</div>
+
+			</div>
+			<!-- Head1 end -->
+
+
+		</div>
+
+		<!-- mobile -->
+
+
+		</div>
+		<!-- head end -->
+
+
+
+		<div class="chatss">
+		<!-- main content -->
+		<div class="main_content">
+
+			<!-- messages -->
+			<a href="dev_sunny">
+			<div class="messages">
+
+				<div class="img_name">
+
+					<div>
+						<img src="assets/img/dev_sunny.jpg" title="Dev. Sunny" alt="Dev. Sunny">
+						
+							<img src="assets/img/upload.png" class="upload_status" style="width: 18px; height: 18px; position: absolute; margin: 25px 0px 0px -20px;" title="Upload" alt="Upload">
+						
+					</div>
+
+
+					<div>
+					<div class="text">
+					 <h4>Dev. Sunny</h4>
+					 <span>Tap to add status update</span>
+					</div>
+					</div>
+
+				</div>
+				
+			</div>
+			</a>
+			<!-- messages end -->
+
+
+			<div class="recent_update">
+				<p>Recent updates</p>
+			</div>
+
+
+			<!-- messages -->
+			<a href="view_status">
+			<div class="messages">
+
+				<div class="img_name">
+
+					<div class="status_img">
+						<img src="assets/img/dev_sunny.jpg" title="Dev. Sunny" alt="Dev. Sunny">
+					</div>
+
+					<div>
+					<div class="text">
+					 <h4>Dev. Sunny</h4>
+					 <span>41 minutes ago</span>
+					</div>
+					</div>
+
+				</div>
+
+				
+			</div>
+			</a>
+			<!-- messages end -->
+
+
+			<!-- messages -->
+			<a href="view_status">
+			<div class="messages">
+
+				<div class="img_name">
+
+					<div class="status_img">
+						<img src="assets/img/dev_sunny.jpg" title="Dev. Sunny" alt="Dev. Sunny">
+					</div>
+
+					<div>
+					<div class="text">
+					 <h4>Dev. Sunny</h4>
+					 <span>Today, 11:26 PM</span>
+					</div>
+					</div>
+
+				</div>
+
+				
+			</div>
+			</a>
+			<!-- messages end -->
+
+
+			<!-- messages -->
+			<a href="view_status">
+			<div class="messages">
+
+				<div class="img_name">
+
+					<div class="status_img">
+						<img src="assets/img/dev_sunny.jpg" title="Dev. Sunny" alt="Dev. Sunny">
+					</div>
+
+					<div>
+					<div class="text">
+					 <h4>Dev. Sunny</h4>
+					 <span>Yesterday</span>
+					</div>
+					</div>
+
+				</div>
+
+				
+			</div>
+			</a>
+			<!-- messages end -->
+
+
+			<!-- messages -->
+			<a href="view_status">
+			<div class="messages">
+
+				<div class="img_name">
+
+					<div class="status_img">
+						<img src="assets/img/dev_sunny.jpg" title="Dev. Sunny" alt="Dev. Sunny">
+					</div>
+
+					<div>
+					<div class="text">
+					 <h4>Dev. Sunny</h4>
+					 <span>Yesterday</span>
+					</div>
+					</div>
+
+				</div>
+
+				
+			</div>
+			</a>
+			<!-- messages end -->
+
+
+			<div class="recent_update">
+				<p>Viewed updates</p>
+			</div>
+
+
+			<!-- messages -->
+			<a href="view_status">
+			<div class="messages">
+
+				<div class="img_name">
+
+					<div class="status_img2">
+						<img src="assets/img/dev_sunny.jpg" title="Dev. Sunny" alt="Dev. Sunny">
+					</div>
+
+					<div>
+					<div class="text">
+					 <h4>Dev. Sunny</h4>
+					 <span>Yesterday</span>
+					</div>
+					</div>
+
+				</div>
+
+				
+			</div>
+			</a>
+			<!-- messages end -->
+
+
+
+			<!-- messages -->
+			<a href="view_status">
+			<div class="messages">
+
+				<div class="img_name">
+
+					<div class="status_img2">
+						<img src="assets/img/dev_sunny.jpg" title="Dev. Sunny" alt="Dev. Sunny">
+					</div>
+
+					<div>
+					<div class="text">
+					 <h4>Dev. Sunny</h4>
+					 <span>Yesterday</span>
+					</div>
+					</div>
+
+				</div>
+
+				
+			</div>
+			</a>
+			<!-- messages end -->
+
+
+		</div>
+		<!-- main content end -->
+	</div>
+
+
+		<!-- <a href="#"> -->
+			<div class="status_form">
+				<form class="">
+				<div class="status_button">
+						<button><i class="fa fa-pencil" title="Ready to post?"></i> </button>
+				</div>
+
+				<!-- <div class="chat_input"> -->
+					<div class="message_button">
+						<button><i class="fa fa-camera" title="Ready to post?"></i> </button>
+					</div>
+				<!-- </div> -->
+
+			</form>
+		</div>
+		<!-- </a> -->
+
+		
+
+	</div>
+	<!-- container end -->
+
+
+	<!-- right container -->
+	<div class="right_container">
+
+
+		<!-- Main chats/messaages -->
+	<div class="main_messages">
+
+		<div class="status_count"></div>
+
+				<div class="status_post">
+					<img src="assets/img/dev_sunny.jpg" title="Dev Sunny" alt="Dev Sunny">
+				</div>
+			</div>
+
+<!-- Main chats/messaages end -->
+			
+
+			<!-- <a href="#"> -->
+			<div class="status_form">
+				<form class="">
+				<div class="status_button">
+						<button><i class="fa fa-pencil" title="Ready to post?"></i> </button>
+				</div>
+
+				<!-- <div class="chat_input"> -->
+					<div class="message_button">
+						<button><i class="fa fa-camera" title="Ready to post?"></i> </button>
+					</div>
+				<!-- </div> -->
+
+			</form>
+		</div>
+		<!-- </a> -->
+		
+
+	</div>
+	<!-- right container -->
+
+</div>
+
+</body>
+</html>
