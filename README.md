@@ -7,11 +7,11 @@
 - JavaScript
 
 ## Features
-* Chat page:
+* Index page:
 ![img](assets/img/index.png?raw=true)
 * Profile page:
 ![img](assets/img/profile.png?raw=true)
+* Chat page:
+![img](assets/img/chats.png?raw=true)
 * Status page:
 ![img](assets/img/status.png?raw=true)
-* Calls page:
-![img](assets/img/calls.png?raw=true)
