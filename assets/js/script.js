@@ -3,27 +3,27 @@
 
 
 
-// function headMenuList() {
-// 	var menuBox = document.getElementById('head_menu_list');
+ function headMenuList() {
+	 var menuBox = document.getElementById('head_menu_list');
 
-// 	if (menuBox.style.display == "none") {
-// 		menuBox.style.display = "block";
-// 	} else {
-// 		menuBox.style.display = "none";
-// 	}
-// }
+ 	if (menuBox.style.display == "none") {
+ 		menuBox.style.display = "block";
+ 	} else {
+ 		menuBox.style.display = "none";
+ 	}
+ }
 
 
 
-// function search() {
-// 	var menuBox = document.getElementById('search');
+ function search() {
+ 	var menuBox = document.getElementById('search');
 
-// 	if (menuBox.style.display == "none") {
-// 		menuBox.style.display = "block";
-// 	} else {
-// 		menuBox.style.display = "none";
-// 	}
-// }
+ 	if (menuBox.style.display == "none") {
+ 		menuBox.style.display = "block";
+ 	} else {
+ 		menuBox.style.display = "none";
+ 	}
+ }
 
 
 // function camera() {
