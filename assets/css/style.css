@@ -60,8 +60,13 @@ body{
 	cursor: pointer;
 	z-index: 999;
 }
-.head1_ul{
-	text
+.img_name .text span{
+	text-overflow: ellipsis;
+	overflow: hidden;
+	width: 200px;
+	display: inline-block;
+	white-space: nowrap;
+	position: absolute;
 }
 
 .head2{
@@ -128,6 +133,10 @@ body{
 .main_content{
 	color: var(--clr-white);
 	padding: 110px 20px 50px 20px;
+	width: auto;
+	height: 100vh;
+	overflow: auto;
+
 }
 .main_content a{
 	text-decoration: none;
@@ -476,18 +485,27 @@ body{
 
 /* chat */
 .chat_form{
-
+	
 }
 .chat_input_div{
 	display: flex;
 	align-items: center;
 	position: fixed;
 	z-index: 9999;
-/*	width: 100%;*/
+}
+.blur{
+	background-color: var(--clr-bcg);
+	position: absolute;
+	height: 100px;
+	width: 90%;
+	overflow: auto;
+	filter: blur(13px);
 }
 .chat_input{
 	width: 100%;
 	padding: 0px 8px 0px 0px;
+	background-color: var(--clr-bcg);
+	z-index: 999;
 }
 .chat_input input{
 	background: var(--clr-bcg);
@@ -589,7 +607,7 @@ body{
 }
 
 
-@media screen and (max-width:750px) {
+@media screen and (max-width:760px) {
 	.head{
 		width: 100%;
 	}
@@ -637,7 +655,7 @@ body{
 
 }
 
-@media screen and (min-width:750px) {
+@media screen and (min-width:760px) {
 	.container{
 		width: 40%;
 		height: 100%;
@@ -695,6 +713,8 @@ body{
 		float: left;
 		width: 60%;
 		color: var(--clr-white);
+	max-height: 100vh;
+	overflow: auto;
 	}
 
 	.r_c{
@@ -703,8 +723,8 @@ body{
 		right: 0px;
 		top: 0px;
 		width: 60%;
-		
 	}
+
 	.right{
 		color: var(--clr-gray);
 		text-align: center;
@@ -715,6 +735,11 @@ body{
 		margin-top: 10px;
 		padding: 20px;
 		font-size: 15px;
+	}
+
+
+	.blur{
+		width: 85%;
 	}
 }
 
