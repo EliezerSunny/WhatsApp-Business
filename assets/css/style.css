@@ -66,7 +66,7 @@ body{
 	width: 200px;
 	display: inline-block;
 	white-space: nowrap;
-	/*position: absolute;*/
+	/* position: absolute; */
 }
 
 .head2{
@@ -222,6 +222,7 @@ body{
 }
 .time .message_count{
 	margin-left: 15px;
+	right: 50px;
 	background: var(--clr-active);
 	color: var(--clr-headbackg);
 	height: 19px;
@@ -517,6 +518,21 @@ body{
 	width: 100%;
 	color: var(--clr-gray);
 }
+.chat_image{
+	z-index: 9999;
+	position: absolute;
+	right: 50px;
+	
+}
+.chat_image input{
+	outline: none;
+	border: 1px solid var(--clr-gray);
+	border-radius: 20px;
+	margin-right: 10px;
+	width: 30px;
+	height: 30px;
+}
+
 .chat_buttonn button{
 	background-color: var(--clr-active);
 	border-radius: 50%;
@@ -623,25 +639,23 @@ body{
 
 	/* chat */
 .chat_input_div{
-/*	position: fixed;*/
 	color: var(--clr-gray);
 	right: 10px;
 	left: 10px;
 	bottom: 10px;
-/*	display: flex;*/
+
 }
-/*.chat_input_div .chat_input{
-	display: inline-block;
-}*/
+
 .chat_input input{
 	background: var(--clr-bcg);
 	padding: 11px 20px;
 	outline: none;
 	border: 1px solid var(--clr-gray);
 	border-radius: 20px;
-/*	width: 88%;*/
-/*	float: left;*/
 }
+
+
+
 .chat_buttonn{
 	background: var(--clr-active);
 	border-radius: 50%;
@@ -671,13 +685,8 @@ body{
 		top: 0px;
 		background: var(--clr-headbackg);
 		width: 60%;
-	}/*
-	.main_messages{
-		float: left;
-		width: 60%;
-		color: var(--clr-white);
-		padding: 90px 10px 70px 20px;
-	}*/
+	}
+
 	.head{
 		width: 40%;
 	}
@@ -693,21 +702,9 @@ body{
 		right: 0px;
 		bottom: 10px;
 	}
-
-	/* display :none */
-	/*.search{
-		display: none;
-	}*/
-	/*.head_menu_list{
-		display: none;
-	}*/
-	/*.message_button{
-		display: none;
+	.chat_image input{
+		margin-right: 30px;
 	}
-	.status_button{
-		display: none;
-	}*/
-
 
 	.right_container{
 		float: left;
@@ -718,7 +715,6 @@ body{
 	}
 
 	.r_c{
-/*		float: left;*/
 		position: fixed;
 		right: 0px;
 		top: 0px;

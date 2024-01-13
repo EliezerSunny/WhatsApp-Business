@@ -20,6 +20,13 @@ Global Styles
 
 }
 
+.message_popup{
+	position: absolute;
+	right: 20px;
+	top: 20px;
+	z-index: 99999;
+}
+
 	.right_chat{
 		width: 100%;
 	}
@@ -57,7 +64,22 @@ Global Styles
 		border-radius: 0px 25px 25px 25px;
 		width: 100%;
 	}
+
+	.incoming_user_name{
+		color: var(--clr-outgoing-span);
+		font-size: 12px;
+		margin-bottom: 8px;
+	}
+
+	.incoming_user_message_image img{
+		border-radius: 8px;
+		object-fit: cover;
+		width: 100%;
+		margin-bottom: 8px;
+
+	}
 	.incoming_user_message span{
+		float: right;
 		color: var(--clr-outgoing-span);
 		font-size: 12px;
 		margin-top: 5px;
@@ -103,23 +125,38 @@ Global Styles
 		padding: 10px 15px;
 		border-radius: 25px 0px 25px 25px;
 		width: 100%;
+		display: block;
+	}
+	.outgoing_user_name{
+		color: var(--clr-outgoing-span);
+		font-size: 12px;
+		/* float: right; */
+		padding-bottom: 8px;
+	}
+	.outgoing_user_message_image img{
+		border-radius: 8px;
+		object-fit: cover;
+		width: 100%;
+		margin-bottom: 8px;
+
 	}
 	.outgoing_user_message p{
 		word-wrap: break-word;
 }
 	
 	.outgoing_user_message span{
-		float: left;
+		float: right;
 		color: var(--clr-outgoing-span);
 		font-size: 12px;
 		margin-top: 5px;
 }
 
-@media screen and (min-width:750px) {
+@media screen and (min-width:760px) {
 	.main_messages{
 		color: var(--clr-white);
 		padding: 90px 10px 70px 20px;
 	}
 
+	
 
 }
